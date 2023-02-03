@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>正本清源蠻屄之一起.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<p><em>我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！</em></p>
+<hr>
+<ul>
+<li><a href="../../tableOfContent.md"><font size=3>跳轉到博客目錄頁面</font></a>&lt;---[<font size=2>在線閱讀</font>]                       <font size=2> [本地] ---&gt;</font><font size=3><a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h3 id="p-style%22font-size-23px-font-weight900%22%E7%89%B9%E5%88%A5%E6%8E%A8%E8%96%A6%E6%96%87%E7%AB%A0p"><p style="font-size: 23px; font-weight:900;">特別推薦文章</p></h3>
+<ul>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md"><font size=4 color=red><strong>鄧紫棋解解的小說——2507抬上帝入天坑</strong> </font></a><font size=2>&lt;---[點擊此前往github在線閱讀]</font>    <font size=3>本地模式 ---&gt; <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.html">html網頁版</a>     <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md.pdf">pdf版本</a> </font></p>
+</li>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md"><font color=red>無眠月照無情門 . 失去自由的歌手</font></a><font size=2> &lt;---[點擊此前往github在線閱讀]</font>                 <font size=3>本地模式---&gt;  <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.html">html網頁版</a>     <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md.pdf">pdf版本</a> </font></p>
+  <p><font size=2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 西子</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</font></p>
+</li>
+</ul>
+<hr>
+</br>
+<p align="center" style="font-size: 28px;font-weight: 800">正本清源蠻屄之一起</p>
+<p align="center" style="font-size: small;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
+<p>從小到大我們是否問過自己&quot;一起&quot;是什麼意思？</p>
+<p>估計這也是蠻屄胡言亂語之濫用漢字。和垃圾讀垃圾之亂用午字一樣。</p>
+<p>得承認，我們都不常用腦！ 因爲我到今天才問自己打小說的屄語之一起是什麼意思！</p>
+<p>起是立着之意。從什麼時候一起變成了有共下（一齊）之意了！</p>
+<p>客家話里常常說的共下，比如共下打拼，汝同其共下，這兜東西共下幾多錢？等等。</p>
+<p>“共下”和“一起”哪個更正確使用漢字，一看就知得/曉得。</p>
+<p>野蠻人只會亂用它媽的牛屄，對漢字實則沒學懂，以至於亂用！害我們跟這些蠻屄亂學漢語幾百年，好像喫屎幾百年都忘了飯的味道！清朝的這些蠻屄也讓中國成了歷史上最醜陋無知愚昧的一個朝代，以至於多多少少延續到了現代。那些傻屄動不動就把清朝的鍋背到儒家身上，說着屄語說漢語不行，說着屄語說自己只知道儒家的三綱五常君君臣臣，卻不懂什麼叫做大學之修身（心）齊家平天下。這些屄語傳人不懂什麼叫做野蠻的五胡亂華的歷史麼？沒聽過厓山之後無中國之語麼？中國當下之醜陋是因爲這些屄族的野蠻導致的。唐朝有詩，宋朝有詞，清朝有什麼？只有殭屍辮子戲！傻屄們還是很喜歡看清庭的乾隆戲，屎沒喫夠，應該多看看清朝的真實照片！諷刺的是乾隆的漢語甩當下的屄語傳人們的漢語十萬八千里。</p>
+<p>也難怪學術界說客家話是漢語的化石。認真研究客家話才能更加認識漢語。</p>
+<p>續：</p>
+<p>今天在查客家話中的&quot;麼儕 ma saai&quot;，即誰，麼人。查到儕, [ 广　韵 ]：士皆切,上平14皆. <em><strong><em>长幼侪居。——《列子·汤问》</em></strong></em> 粵語讀caai，（話說這些簡化漢字的畜生真該下地獄，比蠻屄還可惡，這些畜生咋不乾脆拼音化，反正畜生只需要買買菜跟豬一樣搞搞下半身就夠了，簡化漢字去迎合這些沒智商的畜生，真實污染了漢語，如今正統漢語難道還不夠簡單明了，富有意義嗎！真搞不懂這幫智障的畜生腦子是什麼牲口腦），長幼儕居，即長幼共下居住，用蠻屄的智商理解就是一起。可見這裏留下了蠻屄智障的痕跡，應該是我之前猜測的&quot;一齊“相近之意，只是我們的漢語有跟準確的字來表示之，即儕，明明是一儕，如其倆一儕，蠻屄智商腦和耳朵聽成是一起，然後我們這些蠻屄傳人也不用腦思考跟着一儕讀一起。我們喫了這麼多年的屎，或許情有可原，畢竟大多時候我們只滿足於買菜，但那些拿俸祿的喫屎漢字專家就真的是喫屎狗了！都在一起喫屎麼！</p>
+<pre><code>◎ 侪
+
+儕 chái 
+
+〈名〉
+
+(1) (形声。从人，齐声。本义:同辈，同类的人) 同本义。又称:侪辈 [fellows;associates]
+
+侪，等輩也。——《说文》
+
+侪，耦也。——《汉书·扬雄传》注
+
+吾侪小人。——《左传·宣公十一年》
+
+晋郑同侪。——《左传·僖公二十三年》
+
+故先王之喜怒皆得其侪焉。——《礼记·乐记》。注:“犹輩类。”
+
+文王犹用众，况吾侪乎?——《左传·成公二年》
+
+此故吾侪同说书者也，今富贵若此!——清· 黄宗羲《柳敬亭传》
+</code></pre>
+<p>粵語里說兩個人一同做某事，都說一caai啦，好像很少聽說一起（hei2）啦，怎麼說怎麼拗口，也就只有蠻屄智障人士才會這樣亂用漢字。起（hei2）你媽屄！</p>
+<p>因此可見從粵語和客家話，估計還有其他所謂的”方言“里都能佐證，這智障的蠻屄胡言亂語漢語，對一個語言的污染比隨地大小便還噁心！</p>
+<p><em><strong><em>长幼侪居。——《列子·汤问》</em></strong></em> 還好我們有文獻可以考據，不是”一起“，而是一儕！ 真想穿越回去，扇那些智障的蠻屄幾巴掌！ 然後對這些智障的蠻屄說：用點腦，漢字不是你這蠻屄這樣亂說規定俗成的，漢字有其構字美學的規律，你這智障的不懂，今天後生程序員講你知。聽好：起只有站立之意，儕才有人一同之意。</p>
+<p>（PS： 有些客家話中麼儕是否用得不那麼對味，我們從小到大口語說麼人，即文說的誰。至於說一儕saai人 = 一個人？ 我們那邊是說一個人。儕似乎沒有數量之意。主要是同一。）</p>
+<p align="right"> 2022年12月27日 於韓國濟州島 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>  
+
+</body>
+</html>

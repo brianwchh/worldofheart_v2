@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>一些常用客家詞語.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<p><em>我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！</em></p>
+<hr>
+<ul>
+<li><a href="../../tableOfContent.md"><font size=3>跳轉到博客目錄頁面</font></a>&lt;---[<font size=2>在線閱讀</font>]                       <font size=2> [本地] ---&gt;</font><font size=3><a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h3 id="p-style%22font-size-23px-font-weight900%22%E7%89%B9%E5%88%A5%E6%8E%A8%E8%96%A6%E6%96%87%E7%AB%A0p"><p style="font-size: 23px; font-weight:900;">特別推薦文章</p></h3>
+<ul>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md"><font size=4 color=red><strong>鄧紫棋解解的小說——2507抬上帝入天坑</strong> </font></a><font size=2>&lt;---[點擊此前往github在線閱讀]</font>    <font size=3>本地模式 ---&gt; <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.html">html網頁版</a>     <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md.pdf">pdf版本</a> </font></p>
+</li>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md"><font color=red>無眠月照無情門 . 失去自由的歌手</font></a><font size=2> &lt;---[點擊此前往github在線閱讀]</font>                 <font size=3>本地模式---&gt;  <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.html">html網頁版</a>     <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md.pdf">pdf版本</a> </font></p>
+  <p><font size=2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 西子</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</font></p>
+</li>
+</ul>
+<hr>
+</br>
+<h1 id="p-align%22center%22-%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%AE%A2%E5%AE%B6%E8%A9%9E%E8%AA%9E-p"><p align="center"> 一些常用客家詞語    </p></h1>
+<h4 id="%E9%87%8D%E6%96%B0%E6%8B%BE%E8%B5%B7%E5%AE%A2%E5%AE%B6%E8%A9%B1%E9%82%A3%E4%BA%9B%E8%A2%AB%E9%81%BA%E5%BF%98%E7%9A%84%E8%A9%9E%E5%BD%99%E6%87%89%E8%A9%B2%E5%8F%AF%E4%BB%A5%E5%A4%A7%E8%87%B4%E9%87%8D%E5%BB%BA%E5%94%90%E5%AE%8B%E4%B9%8B%E6%99%82%E7%9A%84%E6%BC%A2%E8%AA%9E%E9%81%A3%E8%BE%AD%E7%94%A8%E5%8F%A5%E5%92%8C%E7%99%BC%E9%9F%B3%E6%A8%A1%E6%A8%A3%E7%94%A8%E5%AE%A2%E5%AE%B6%E8%A9%B1%E8%AE%80%E6%B8%85%E4%BB%A3%E4%B9%8B%E5%BE%8C%E7%9A%84%E6%96%87%E5%AD%B8%E7%95%B0%E5%B8%B8%E6%8B%97%E5%8F%A3%E7%94%A8%E6%BB%BF%E5%A4%A7%E4%BA%BA%E8%AE%80%E5%AE%A2%E5%AE%B6%E8%A9%B1%E6%96%87%E7%AB%A0%E4%B9%9F%E4%B8%80%E6%A8%A3%E4%B8%8D%E9%A0%86%E8%A8%B1%E5%A4%9A%E5%AE%A2%E5%AE%B6%E5%8F%A3%E8%AA%9E%E4%B8%AD%E7%9A%84%E5%B8%B8%E7%94%A8%E5%AD%97%E5%9C%A8%E5%A6%82%E4%BB%8A%E7%9A%84%E6%BB%BF%E5%A4%A7%E4%BA%BA%E4%B8%AD%E5%83%8F%E6%98%AF%E7%94%9F%E5%83%BB%E5%AD%97%E4%B8%80%E6%A8%A3%E5%AD%98%E5%9C%A8">重新拾起客家話那些被遺忘的詞彙，應該可以大致重建唐宋之時的漢語遣辭用句和發音模樣。用客家話讀清代之後的文學異常拗口，用滿大人讀客家話文章，也一樣不順。許多客家口語中的常用字，在如今的滿大人中像是生僻字一樣存在。</h4>
+<h3 id="%E6%9C%AC%E9%A0%81%E9%9D%A2%E7%9B%AE%E9%8C%84">本頁面目錄</h3>
+<ul>
+<li><a href="#%E6%87%B6%E7%96%8F%E8%AA%A4%E5%82%B3%E7%88%B2%E6%87%B6%E5%B1%8D%EF%BC%8F%E5%B0%B8%E5%AB%B2/%E7%89%AF">懶疏誤傳爲懶屍／尸嫲/牯</a></li>
+<li><a href="#%E7%9B%8E">盎</a></li>
+<li><a href="#%E7%9B%AE%E6%B1%81%E9%97%8C%E5%B9%B2">目汁闌干</a></li>
+<li><a href="#%E8%A1%B0%E9%81%8E">衰過</a></li>
+<li><a href="#%E9%81%BD">遽geoi6:快faai3，急gap1</a></li>
+<li><a href="#%5C%E2%80%9D%E9%BA%BC%E4%B9%9F%5C%E2%80%9C%E8%88%87%5C%E2%80%9D%E9%BA%BC%E5%80%8B%5C%E2%80%9C">”麼也“與”麼個“</a></li>
+<li><a href="#%E7%88%BA%E5%A8%AD%E6%AF%91%E2%80%9C">爺娭毑</a></li>
+<li><a href="#%E4%BB%94%E2%80%94%E2%80%94%E5%AE%A2%E5%AE%B6%E8%A9%B1%E7%9A%84%E5%85%92%E8%A9%B1%E9%9F%B3%EF%BC%9F%E2%80%9C">仔——客家話的兒話音？</a></li>
+<li><a href="#%E9%80%99%E5%80%8B%E8%A9%B2%E5%80%8B%E9%82%A3%E5%80%8B%E2%80%9C">這個該個那個</a></li>
+<li><a href="#%E6%8E%89%E8%88%87%E6%92%87">掉與撇</a></li>
+<li><a href="#%E7%9F%A3%E8%88%87%E4%BA%86">矣與了</a></li>
+<li><a href="#%E7%84%89%E5%9C%B0%E8%88%87%E4%BB%B0%E6%A8%A3">焉地與仰樣</a></li>
+<li><a href="#%E5%93%80%E5%93%A9">哀哩</a></li>
+<li><a href="#%E5%85%AE%E6%98%AF%E5%AE%A2%E8%AA%9E%E4%B9%8B%E2%80%9C%E6%97%B3%E2%80%9D%E8%88%87%E2%80%9C%E5%9C%A8%E2%80%9D%E5%97%8E">兮是客語之“旳”與“在”嗎</a></li>
+<li><a href="#%E5%8C%85%E7%B2%9F">包粟=玉米</a></li>
+<li><a href="#%E5%81%9A%E5%BE%97">也(做)得</a></li>
+<li><a href="#%E8%86%A3%E5%B1%84">膣屄——蠻屄看過來，學好漢語發音</a></li>
+<li><a href="#%E6%B2%A1%E6%90%AD%E7%85%9E">没搭煞=沒意思</a></li>
+<li><a href="#%E7%A2%93%E6%AD%BB%E4%BA%BA=%E5%B0%8F%E5%AD%A9%E5%8F%88%E5%93%AD%E5%8F%88%E5%90%B5%EF%BC%8C%E9%A0%82%E7%A2%93=%E9%BA%BB%E7%85%A9%E6%83%B1%E4%BA%BA">碓死人=小孩又哭又吵，頂碓=麻煩惱人</a></li>
+<li><a href="#%E6%89%90let=%EF%BC%88%E9%9B%99%E6%89%8B%E6%88%96%E5%96%AE%E6%89%8B%EF%BC%89%E6%8A%B1%E4%BD%8F">扐let=（雙手或單手）抱住</a></li>
+<li><a href="#%E5%90%88">合，很有用的字</a></li>
+<li><a href="#%E5%81%8Bbiang%E3%80%81%E5%96%99zuoi%E3%80%81%E7%82%99zhi%E3%80%81%E5%AC%B2liau">偋biang、喙zuoi、炙zhi、嬲liau</a></li>
+</ul>
+<h4 id="p-id%22%E6%87%B6%E7%96%8F%E8%AA%A4%E5%82%B3%E7%88%B2%E6%87%B6%E5%B1%8D%EF%BC%8F%E5%B0%B8%E5%AB%B2%E7%89%AF%22-p"><p id="懶疏誤傳爲懶屍／尸嫲/牯"> <p/></h4>
+<h4 id="%E6%87%B6%E7%96%8F%E8%AA%A4%E5%82%B3%E7%88%B2%E6%87%B6%E5%B1%8D%EF%BC%8F%E5%B0%B8%E5%AB%B2%E7%89%AF">懶疏誤傳爲懶屍／尸嫲/牯</h4>
+<p>「嵇康《与山巨源绝交书》云：“性复疏懒，筋驽肉缓，头面常一月十五日不洗。”这种“头面常一月十五日不洗”正是“懒疏妇道”的具体形象。所以，我认为“懒疏”是标准的书面语，不是写不出字的方言，这也是客家人是中原士族后裔的文化表现。」</p>
+<p>由於客家語在民間沒有文字，所以，從疏變成屍很有可能。而且屍體確實也沒有什麼懶惰與勤奮之分。況且與十分搭配就語法上狗屁不通了，而十分懶疏則十分登對。懶屍是名詞，無法與十分搭配使用。</p>
+<p>例句：汝唔愛/要恁懶疏。</p>
+<h4 id="p-id%22%E7%9B%8E%22-p"><p id="盎"> <p/></h4>
+<h4 id="%E7%9B%8E">盎</h4>
+<p>讀音ang。家裏拿來做米酒的容器，兩頭小，中腹大。</p>
+<h4 id="p-id%22%E7%9B%AE%E6%B1%81%E9%97%8C%E5%B9%B2%22-p"><p id="目汁闌干"> <p/></h4>
+<h4 id="%E7%9B%AE%E6%B1%81%E9%97%8C%E5%B9%B2">目汁闌干</h4>
+<p>眼淚闌珊，目水闌珊，欄杆應該是口口相傳的誤讀，不過，目汁闌珊/目汁闌闌作爲日常語，好古好雅，呵呵</p>
+<h4 id="p-id%22%E8%A1%B0%E9%81%8E%22-p"><p id="衰過"> <p/></h4>
+<h4 id="%E8%A1%B0%E9%81%8E">衰過</h4>
+<p>字正確嗎？<br>
+恁衰過am coiˊgo，好可憐</p>
+<h4 id="p-id%22%E9%81%BD%22-p"><p id="遽"> <p/></h4>
+<h4 id="%E9%81%BD">遽</h4>
+<p>恁遽，快遽</p>
+<h4 id="p-id%22%E9%80%99%E5%80%8B%E8%A9%B2%E5%80%8B%E9%82%A3%E5%80%8B%22-p"><p id="這個該個那個"> <p/></h4>
+<h4 id="%E9%80%99%E5%80%8B%E8%A9%B2%E5%80%8B%E9%82%A3%E5%80%8B">這個該個那個</h4>
+<p>這(de)個（近），該(ga)個（遠），那（nou）個（更遠），哪（nei）個（未知），屄語里居然沒有了，只有這和那，韓語里都還保留着這種指示方式。這也很符合漢語之意，談論這時，即指第一人稱我這，討論該項目或計劃，意指目光所及之近，而那裏與哪裏，則有距離比較遠和未知之意。</p>
+<p>在𠊎這裏，在汝該里，在其那里。汝在c/zoi哪nei里？</p>
+<p>口語中說的在之heh怎麼寫？？？？ heh哪裏？</p>
+<!-- #### <p id="&quot;麼也&quot;與&quot;麼個&quot;"> <p/> -->
+<h4 id="p-id%22%E9%BA%BC%E4%B9%9F%E8%88%87%E9%BA%BC%E5%80%8B%22-p"><p id="\”麼也\“與\”麼個\“"> <p/></h4>
+<h4 id="%22%E9%BA%BC%E4%B9%9F%22%E8%88%87%22%E9%BA%BC%E5%80%8B%22">&quot;麼也&quot;與&quot;麼個&quot;</h4>
+<p>做麼也？通古文做甚(也)？”也“爲語氣詞，無字意。 而不是做麼個。<br>
+麼個時節/間。什/甚麼時候<br>
+麼(個)人。誰</p>
+<p>其時常會行過來坐下。（這標準的漢語表達，用屄語念會拗口死，但這優雅的表達卻是客家話的日常用語）</p>
+<p>其時常愛oi行過來坐下。（不一樣的意思，愛oi音調不一樣）</p>
+<h4 id="p-id%22%E7%88%BA%E5%A8%AD%E6%AF%91%22-p"><p id="爺娭毑"> <p/></h4>
+<h4 id="%22%E7%88%BA%E5%A8%AD%E6%AF%91%22">&quot;爺娭毑&quot;</h4>
+<h4 id="p-id%22%E4%BB%94%E5%AE%A2%E5%AE%B6%E8%A9%B1%E7%9A%84%E5%85%92%E8%A9%B1%E9%9F%B3%22-p"><p id="仔——客家話的兒話音？"> <p/></h4>
+<h4 id="%22%E4%BB%94%E5%AE%A2%E5%AE%B6%E8%A9%B1%E7%9A%84%E5%85%92%E8%A9%B1%E9%9F%B3%22">&quot;仔——客家話的兒話音？&quot;</h4>
+<p>魚仔ngeil el，雞仔 geil el，（雞公/雞嫲/雞仔）,應該是和韓國尾音l（ᆯ）[話說韓語保留了好多尾音）一樣，一種拖長音，和仔(el)發音發生連讀，所以就經常聽到一些人，尤其是我們縣城的人讀成了魚仔（ngeil el)成了和魚哩一樣的發音，韓語這裏發連音的情況特別常見。 漢字有入聲(收聲)的尾音，相應地自然也有不收聲的尾音，像韓語里的l（ᆯ）這類的發音，我們似乎只知道有入聲，卻沒注意到這個。</p>
+<p>時常聽長輩在魚鴨等後面叫個類似於lid的發音，有些發得重的就發成led，而子有專門的發音，zi。感覺這個就像是客家話口語中的兒話音，要知道胡言亂語不是憑空出現的，只是學得不像，才變成了卷舌的兒話音(r). 所以把兒自給用成這樣了。</p>
+<p>家裏鄰居經常問我爸媽在哪裏時，常這樣說： 汝娭/哀(仔)[讀着oil (l)ed]爺仔（jal led）耶（（y）e）？<br>
+如果不知道，我說：𠊎唔知(di)得de。如果打漁去了，我會說，其在（c/zoi）溪kei里打魚ngei仔(led/別人的客家話)（我們說魚子zi）去（ke/ka)已/矣(lid)。[不要問我們爲啥這麼說，我們日常說話就是這麼古，近文言，意思讀過書的都知道，表示已經發生的動作]（感覺應該是矣，而不是已，就像我們常到了別人家，會說聲：𠊎來矣。敲別人的門，別人一般會問：（係）麼人啊？ 熟人回答一般是：𠊎也。對方聽聲音就知道誰了。或者羅嗦點，就是：（係）𠊎也，某某村裏的乳名。）好像我們喜歡把結尾詞從jid變成lid，比如已/矣 （yid），我們都成lid，即把尾音y/j發成l。</p>
+<h4 id="p-id%22%E7%9F%A3%E8%88%87%E4%BA%86%22-p"><p id="矣與了"> <p/></h4>
+<h4 id="%22%E7%9F%A3%E8%88%87%E4%BA%86%22">&quot;矣與了&quot;</h4>
+<p>從什麼時候開始用“了”字放在動作後面表示動作已經發生了？不知道。了也似乎無此意思。而且讀音應該是liu。<br>
+但矣的意思，大家都知道，古已有之。客家話里說的li，而不說le，如果是真的&quot;了&quot;，那讀音應該是發着li，或者是民間口口相傳之誤讀，將矣(ji/yi)都成li。</p>
+<h4 id="p-id%22%E6%8E%89%E8%88%87%E6%92%87%22-p"><p id="掉與撇"> <p/></h4>
+<h4 id="%22%E6%8E%89%E8%88%87%E6%92%87%22">&quot;掉與撇&quot;</h4>
+<p>mandarin中常用&quot;掉&quot;接在動詞後面，表示狀態已經完結了,而客家話里用撇。比如食撇，走撇矣, 𠊎 의 eih錢掉（die？？）撇矣，尋唔到矣。（錢已經丟了，可能看到錢在面前，也可能看不到了）。比較起來，還是覺得客家話更符合味道。猶如寫書法一樣，灑脫地一撇表示完結。</p>
+<h4 id="p-id%22%E7%84%89%E5%9C%B0%E8%88%87%E4%BB%B0%E6%A8%A3%22-p"><p id="焉地與仰樣"> <p/></h4>
+<h4 id="%22%E7%84%89%E5%9C%B0%E8%88%87%E4%BB%B0%E6%A8%A3%22">&quot;焉地與仰樣&quot;</h4>
+<p>我們那裏客家話說“怎麼，怎樣”是說“ngiong地”，比如小時候幹活時，常問老媽的是：這(de)個要ngiong地種啊？ ---- 這個要怎地種？ 網上查了下，有人說ngiong應該是&quot;焉&quot;,我也更加認同是這個字，而不是“仰”，如果用客家話寫作，滿篇都是錯別字，很糟糕，客家話一定是更加符合古文文法才對。</p>
+<pre><code>《廣韻》於乾切,讀ngiong,iong表示為怎樣 。 
+
+ 潮州话 iang7(iāng) iang1(iang) [潮州]iêng7 iêng1
+</code></pre>
+<p>而焉是“怎麼”的古語。而且和蔫(nian)의（ei）的蔫發音相近。</p>
+<pre><code>清代段玉裁【說文解字注】
+菸也。不鮮也。从艸。焉聲。於乾切。十四部。
+</code></pre>
+<p>從焉聲。什麼時候我一個程序員居然也常常查起&lt;&lt;說文解字&gt;&gt;了，哈哈哈。</p>
+<p>別的地區可能習慣用“焉般/樣”+動詞，我們村基本上都說“焉地”+動詞。<br>
+而回答是：噉地（這樣）+動詞。然後一邊示範。</p>
+<p>樣般？就如著一樣是對著的簡寫？但客家話里明明有niang樣做的說法，所以應該不是怎樣的縮寫。</p>
+<p id="哀哩"> <p/>
+<h4 id="%22%E5%93%80%E5%93%A9%22">&quot;哀哩&quot;</h4>
+<p>哀傷，因愛和憐憫而傷，所以哀有愛之意，同時比愛更多一層意思，憐憫。因而用以指代母親。</p>
+<h4 id="p-id%22%E5%85%9C%22-p"><p id="兜"> <p/></h4>
+<h4 id="%E5%85%9C">兜</h4>
+<p>數量詞，一兜子 = 一些。就是衣兜能裝下的數量，意指一點點。兜過來，是端過來之意。<br>
+粵語里，你啲(人)，你們，應是你兜人的民間誤讀。客家話里說你們就是說汝兜(人)，𠊎兜（人）。</p>
+<h4 id="p-id%22%E5%85%AE%E6%98%AF%E5%AE%A2%E8%AA%9E%E4%B9%8B%E6%97%B3%E8%88%87%E5%9C%A8%E5%97%8E%22-p"><p id="兮是客語之“旳”與“在”嗎"> <p/></h4>
+<h4 id="%E5%85%AE%E6%98%AF%E5%AE%A2%E8%AA%9E%E4%B9%8B%E6%97%B3%E8%88%87%E5%9C%A8%E5%97%8E">兮是客語之“旳”與“在”嗎 ？</h4>
+<p>客家話與韓語中的ei/의對應的文字是哪個？ 還有hai/(h)ei哪里？之口讀hai/hei，即在那裏之在，hei對應的文字又是哪個？<br>
+是&quot;兮&quot;嗎？ xi的發音肯定是不對的，智障的胡言亂語。</p>
+<p>這(di)個係(hai)𠊎兮(e)??????</p>
+<p>“的”字是後來才出現的，每次寫毛筆字，也覺得的字好難看。查說文，也查無此人！</p>
+<p>可憐的客家人，說了幾百年，連個字都不求甚解！只滿足於買菜耕田！連文學都沒有！好好的正宗古漢語變成了田間俚語！相較於胡言亂語的沒入聲又生硬，且充滿漢字智商的胡言亂語之滿大人，客家話的轉音很好聽，這個接近於粵語的陰陽四韻的發音，而且相對於粵語，客家話在用詞方面更接近漢字正確的用法。不會出現上午一起這樣不懂漢字的智商問題！滿大人充滿了智商不足的歷史痕跡！其不通陰陽的發音系統就是一個最好的智障史了！所有語言中讀陰陽，都是陰的聲調高，而陽聲調低，唯獨智障的滿大人陽字第二聲，讀起來音調比陰字高。</p>
+<h4 id="p-id%22%E5%8C%85%E7%B2%9F%22-p"><p id="包粟"> <p/></h4>
+<h4 id="%E5%8C%85%E7%B2%9F-bau-siug">包粟 （bau siug）</h4>
+<pre><code>玉米，哈哈
+</code></pre>
+<h4 id="p-id%22%E5%81%9A%E5%BE%97%22-p"><p id="做得"> <p/></h4>
+<h4 id="%E5%81%9A%E5%BE%97%E4%B9%9F%E5%81%9A%E5%BE%97">做得，也(做)得</h4>
+<pre><code>做得沒？ 可以嗎？ 
+其唔做得 = Ta不同意。
+這個唔做得 = 這個不可以，不合適。
+搓 cai 摻 can
+碾 zhan 米/碎
+</code></pre>
+<h4 id="p-id%22%E8%86%A3%E5%B1%84%22-p"><p id="膣屄"> <p/></h4>
+<h4 id="%E8%86%A3%E5%B1%84zi-bietbai%E8%A0%BB%E5%B1%84%E5%80%91%E7%9C%8B%E9%81%8E%E4%BE%86%E5%AD%B8%E5%A5%BD%E6%BC%A2%E8%AA%9E%E7%99%BC%E9%9F%B3%E5%88%A5%E4%BA%82%E7%94%A8%E9%80%BC%E4%BD%A0%E5%AA%BD%E7%9A%84%E9%80%BC%E4%B8%8D%E9%95%B7%E9%80%99%E6%A8%A3%E8%80%8C%E4%B8%94%E4%B9%9F%E4%B8%8D%E8%AE%80bi%E4%B8%80%E7%BE%A3%E6%99%BA%E9%9A%9C%E7%9A%84%E5%B0%91%E6%95%B8%E8%A0%BB%E5%B1%84%E5%BC%84%E9%AB%92%E4%BA%86%E4%B8%AD%E5%9C%8B%E6%96%87%E5%8C%96%E5%B9%BE%E5%8D%81%E5%84%84%E8%A0%BB%E5%B1%84%E5%82%B3%E4%BA%BA%E5%8D%BB%E5%8F%AB%E7%9A%84%E6%9C%97%E6%9C%97%E4%B8%8A%E5%8F%A3">膣屄zi biet/bai，蠻屄們看過來，學好漢語發音,別亂用逼，你媽的逼不長這樣，而且也不讀bi。一羣智障的少數蠻屄弄髒了中國文化。幾十億蠻屄傳人卻叫的朗朗上口！</h4>
+<p>韓文叫&quot;陰道&quot;做&quot;질&quot;，讀作&quot;jil&quot;，漢字同樣係&quot;膣&quot;。</p>
+<p>2023年1月21日。</p>
+<p>我一直在罵蠻屄，甚至總是故意寫屄字，不是在針對滿族人，歷史又不是一個族羣的責任，每一次的融合與分離犧牲的都是無辜被洗腦的大衆的生命，沒人希望再爲了寫一個歷史笑話而打打殺殺！最後又變成金融的韭菜！那些善用金融的畜生最喜歡挑起各種矛盾，然後把注意力從牠們身上移開！鷸蚌相爭，贏得是那幫烏龜！我們應該共同努力，把躲在屎坑里幾百年的畜生拉出來曬太陽，共同觀摩觀摩這些忽悠我們的烏龜王八有多噁心！人類歷史的大多爭鬥都是智商稅！但我們卻一次次沒學會！</p>
+<p>我一直只說文化該有的樣子！每個人對文化都有其自身的理解，我說的是我自己覺得文化該有的樣子！不涉及其他現實中的地域攻擊！我說的蠻屄是指清朝那些諸如乾隆之類的亂改文化的智障人士！就像我戲稱自己是南蠻後人一樣！</p>
+<p>但如果說你是那些喜歡把逼掛在嘴邊的寫進文章唱進歌里的智障蠻屄傳人，那沒錯，除了蠻屄，我找不到更好的詞彙來形容你這種野蠻而不尊重你媽的、不知禮義廉恥的野畜雜交體了！你們這種野畜雜交體污染了中國的文化和社會！以至於我自己以前不自覺也是其中的一員，常亂用&quot;逼&quot;字！試問中國十幾億人，哪個不被這蠻屄的文化污染，以至於常常也把逼掛嘴巴，卻不知其意，更不知羞恥！</p>
+<p>我更不是對女性不尊重，相反，我覺得我們的社會自周秦之後對女性反而非常不尊重！客家人稱客家話爲阿姆話，更是對自己文明源頭的尊敬！文化源頭是乾淨清澈的，只是學的人做到如何，只有自己的良心自知了！沒有良心的人天天照鏡子也看不到真實的自己，就跟殭屍和鬼一樣。</p>
+<p>我們的文化源於屄，也該從正確使用”屄“和不亂用”逼“開始！</p>
+<p>這是最起碼的家裏尚有父母教的家教和文化教養！客家話里常說人沒教養，就是罵其”早死爺哀沒人教“！我們父母打小也常叮嚀一些基本的禮節和禮貌，也常說，要記住這個那個，他們還在，別讓人說我沒人教！</p>
+<p>我們不是野獸，文明不把屄露在外面，自然也不掛在嘴巴！</p>
+<p>換着以前的自己，我也會很不理解自己當下的憤怒，也會覺得自己太極端！</p>
+<p>但你發現自己是在胡言亂語的文化中浪費了幾十年寶貴時光後，難免心裏不生憤怒之情！一是怒先輩不爭氣，沒本事保護好自己的文化！二是悲憤我們這些後輩智商跟豬一樣被人愚弄！喫屎幾百年，不知也不思飯的味道！變成了被人嘲笑諷刺的醜陋中國人！明明自己有世界一流的文字語言及文化，卻成了仰視羨慕別人拼音化的文字的愚民！這世界顛倒的認知，真是笑話！丟掉自己的寶玉，卻去求別人家的沙子！</p>
+<p><font size=5><strong>技術不是文化！技術不是文化！技術不是文化！就像戰馬不是人一樣！以前騎着戰馬的野蠻滅掉文明的歷史一次次在重演！</strong> </font></p>
+<p>同樣地，一個知道自己語言不如漢語的羣體，卻操起歷史的手術刀對漢語做起了改造的手術！這種胡言亂語真的很大煞風景！更可惡的是不通陰陽四韻的智障人士誤人子弟！以至於其智障傳人長嘆漢字不亡中國無救！智障傳人拼音化漢字不成就學蠻屄對漢字做起了閹割手術！如今，滿清的太監沒在人間但卻深入了人間，進入了漢字里，進入了子孫後代的骨子里！智障的先生教智障的傳人把漢字當成拼音化的符號文字來死記硬背不求甚解！然後一羣智障傳人口喊着&quot;學好ABC出國坐飛機&quot;，以說幾句洋文爲下了金蛋一樣驕傲！卻不以胡言亂語不通漢字更亂用漢字爲羞恥！真的是很牛屄的蠻屄傳人！這他媽的屄都不會讀，卻常常把他媽的屄講在嘴邊寫進廟堂文章，指不定以後和二流語言的fuck一樣進入“優美的”歌詞里！十句話里帶九句fucking，剩下一句帶shit。古漢語化石的阿姆話，樸實，很少有把膣屄用着修飾詞常掛嘴邊！而且和其他詞搭配也很拗口難念！也只有智障的野蠻人士胡言亂語把他媽的屄讀成bi，卻把牠把的屌子說成是牠媽的膣屄(jil bai),即雞巴的諧音。這種垃圾的蠻屄胡言亂語真的是開了一大堆漢語的笑話！不識牠媽的源頭，卻總把牠媽的源頭掛嘴巴！</p>
+<p>那些蠻屄不知道自己智商很邋遢很低，只會學依葫蘆畫瓢在國寶上亂塗鴉！更討厭的是，這些智障的東西還很勤奮，修起了漢字的「四跪全書」，反觀這些南蠻呢？除了種地，磕破猴腦考取官名，然後衣他娘的錦、還他媽屄的鄉、放他媽屄的鞭炮、吹他媽屄的蠟燭！連一個像韓國世宗大王這樣的小小貢獻都沒有！</p>
+<p>智障傳人說着胡言亂語的平平調，卻不知漢語陰陽四韻柔美內斂的婉轉之音。</p>
+<h4 id="p-id%22%E6%B2%A1%E6%90%AD%E7%85%9E%22-p"><p id="没搭煞"> <p/></h4>
+<h4 id="%E6%B2%A1%E6%90%AD%E7%85%9E">没搭煞</h4>
+<p>没搭撒----客家语保留了古中原地区的读音和意思，是世界上保留古语最多的语言，客家话读“没”为“无”，故念“无搭煞”，是没有味道、没有意思，无聊之意。《西游记》第三十九回写到太上老君吩咐炼丹的童子要注意时，孙行者作礼笑道：“老官儿，这等没搭撒。防备我怎的？”这话中的“没搭撒”就是“没搭煞”。</p>
+<p>出处编辑 播报<br>
+《金瓶梅词话》第五七回：“你日后那没来回，没正经，养婆儿，没搭煞，贪财好色的事体，少干几桩儿，却不儹下些阴功。”《二刻拍案惊奇》卷三：“元来是人家婚姻照验之物，是个要紧的，如何却将来遗下，又被人卖了？也是个没搭煞的人了。”<br>
+明 徐阳辉 《有情痴》曲：“人都道你没搭煞，做不来，我偏爱你有情痴，脱得俗。”<br>
+《西游记》第三十九回写到太上老君吩咐炼丹的童子要注意时，孙行者作礼笑道：“老官儿，这等没搭撒。防备我怎的？”这话中的“没搭撒”就是“没搭煞”。</p>
+<h4 id="p-id%22%E7%A2%93%E6%AD%BB%E4%BA%BA%E5%B0%8F%E5%AD%A9%E5%8F%88%E5%93%AD%E5%8F%88%E5%90%B5%E9%A0%82%E7%A2%93%E9%BA%BB%E7%85%A9%E6%83%B1%E4%BA%BA%22-p"><p id="碓死人=小孩又哭又吵，頂碓=麻煩惱人"> <p/></h4>
+<h4 id="%E7%A2%93%E6%AD%BB%E4%BA%BA%E5%B0%8F%E5%AD%A9%E5%8F%88%E5%93%AD%E5%8F%88%E5%90%B5%E9%A0%82%E7%A2%93%E9%BA%BB%E7%85%A9%E6%83%B1%E4%BA%BA">碓死人=小孩又哭又吵，頂碓=麻煩惱人</h4>
+<p>碓米的東西。</p>
+<p>粤东一带客家的“顶顶碓碓”或“顶顶碓”、“真顶碓”，则是抱怨某人总是出现同样的差错，从而致使他人麻烦不断的意思。踏碓时，碓头经常被湿粉粘牢，故需将碓头顶起并刮去上面粘牢的粉块，如此反复顶起碓头，用力踏那個碓的人自然麻烦不断很喫力，希望另一頭的人乾淨清理掉碓頭的粉塊。因而踏碓的人聽到清理碓頭的人角其頂着碓時，會來句抱怨的話：又要頂碓啊。因而漸漸引申爲後來的麻煩，費勁。<br>
+比如常說的： 汝還頂碓=你好多麻煩我的事。  也有說蹬碓，就是用腳蹬住碓的意思。<br>
+還碓人=好難伺候的主。</p>
+<p>在阿姆話中，常用還字作爲程度“好，十分之意”。還本有程度之意，比如你還來？=你又來？你還沒喫夠啊。你還要？因而阿姆話中有：還多（過多=比較多，而胡言亂語說還多是比什麼什麼還多，即比較多的意思，而客語里常說：其過多=他/她比較多，這個高過該個=這個比那個高），該個細妹還靚/這個阿妹過靚（更漂亮），還好食,等等，類似於過的用法。這個跟胡言亂語的有點不一樣，客家話更多沿用了其本意。</p>
+<p>“冇搭碓”意为对人对物没有多大意思或不感兴趣。感覺應該是搭撒(煞)。</p>
+<h4 id="p-id%22%E6%89%90let%E9%9B%99%E6%89%8B%E6%88%96%E5%96%AE%E6%89%8B%E6%8A%B1%E4%BD%8F%22-p"><p id="扐let=（雙手或單手）抱住"> <p/></h4>
+<h4 id="%E6%89%90let%E9%9B%99%E6%89%8B%E6%88%96%E5%96%AE%E6%89%8B%E6%8A%B1%E4%BD%8F">扐let=（雙手或單手）抱住</h4>
+<p>扐細人子，扐合定（抱住別掉了）<br>
+汝去扐該個細傀=你去抱那個小孩。</p>
+<p>在阿姆話里，扐和抱是有區別的。還有攬。胡言亂語用一個抱字替代了扐和攬。</p>
+<h4 id="p-id%22%E5%90%88%22-p"><p id="合"> <p/></h4>
+<h4 id="%E5%90%88%E5%BE%88%E6%9C%89%E7%94%A8%E7%9A%84%E5%AD%97">合，很有用的字</h4>
+<p>客家話里常說的hap哪裏（在哪裏），hap麼人拱下嬲（和誰一齊玩耍聊天），hap應該是合。合的用法非常靈活。<br>
+抓合定，坐合定等等。</p>
+<p>介</p>
+<p>(1) 与;向 [for]</p>
+<p>又不好合你再要。——《红楼梦》// 由此可見，紅樓夢可能有點用阿姆話的味道，這裏不用和，也不用像，而是和客家話里的用於習慣一樣，hap汝要xxx東西。hap麼人共下住。hap哪裏，也應該是合字。𠊎合這角=我在這裏/邊。</p>
+<p>(2) 和 [as]。</p>
+<p>如:合会(以及;和)</p>
+<h4 id="p-id%22%E5%81%8Bbiang%E5%96%99zuoi%E7%82%99zhi%E5%AC%B2liao%22-p"><p id="偋biang、喙zuoi、炙zhi、嬲liao"> <p/></h4>
+<h4 id="%E5%81%8Bbiang%E5%96%99zuoi%E7%82%99zhi%E5%AC%B2liau-%E6%92%A9liao">偋biang、喙zuoi、炙zhi、嬲liau  撩liao</h4>
+<p>宋.韩驹《送子飞弟归荆南》诗“弟妹乘羊车，堂前走相嬲” , 嬲耍，男男女女一起玩，尤其指小孩，也指大人。<br>
+這角無麼也好嬲。</p>
+<p>撩liao： 挑逗（非性），戲弄<br>
+汝唔要又去撩該隻狗，唔要俾其咬到哩。<br>
+汝唔要又去撩人/其。</p>
+
+</body>
+</html>

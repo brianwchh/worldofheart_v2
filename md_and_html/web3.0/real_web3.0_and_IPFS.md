@@ -1,0 +1,192 @@
+***
+*我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！* 
+****
+- [<font size=3>跳轉到博客目錄頁面</font>](../../tableOfContent.md)<---[<font size=2>在線閱讀</font>]&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](../../tableOfContent.html)&nbsp; &nbsp; [*_pdf格式_*](../../tableOfContent.md.pdf)</font>
+****
+
+### <p style="font-size: 23px; font-weight:900;">特別推薦文章</p>
+
+- [<font size=4 color=red>**鄧紫棋解解的小說——2507抬上帝入天坑** </font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp;  <font size=3>本地模式 --->&nbsp;[html網頁版](../../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html) &nbsp;&nbsp;&nbsp; [pdf版本](../../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf) </font>  
+
+- [<font color=red>無眠月照無情門 . 失去自由的歌手</font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md)<font size=2> <---[點擊此前往github在線閱讀]</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=3>本地模式---> &nbsp;[html網頁版](../../md_and_html/無眠月照無情門.html) &nbsp;&nbsp;&nbsp; [pdf版本](../../md_and_html/無眠月照無情門.md.pdf) </font>
+
+    <p><font size=2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 西子</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</font></p>
+    
+
+****
+
+
+</br>
+
+****<p align="center" style="font-size: larger;">real_web3.0_and_IPFS</p>****
+****<p align="center" style="font-size: small;">如何用家庭IOT做分佈式雲存儲和雲計算的終端，用閒置的電腦鑽錢</p>****
+<p align="center" style="font-size: small;">阿柄</p>
+
+</br>
+
+
+<div align="left">
+
+    An real web3.0 ecosystem should be like this, where web3.0 is not 
+    dependent on anyCryptocurrency platorm, where self-media platform 
+    and home IOT system is decentralized and connected to each other, 
+    where ereryone can rent their free disk space, and where everyone 
+    can rent their computer computation acting as an edge side of 
+    distributed cloud computing,thus thousands and hundreds of ants can 
+    move an elephant. In one world a real web3.0 is fully decentralized
+    and a lot of opportunities are distributed among individuals.
+    click below link to read more ... 
+    一個真的web3.0生態系統應如是：不依賴任何加密平臺，所以不會淪爲別人的韭菜，其中去中心
+    化家庭IOT自媒體平臺之間自由互連，每個人將可以成爲分佈式雲計算的運算終端出租電腦存儲空間
+
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_1.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_2.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_3.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_4.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_5.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_6.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_7.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+
+<p align="right"> 2022年12月20日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+</div>
+
+
+
+
+
+</br>
+</br>
+
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 700px ;
+        flex:0;    
+        height:auto; 
+        max-width: 700px;
+        min-width: 700px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+}
+
+</style>
+
+
+<!-- 共用的css -->
+<!-- <head>
+    <link rel="stylesheet" href="../common_css/common_style.css">
+</head> -->
+
+
+
+

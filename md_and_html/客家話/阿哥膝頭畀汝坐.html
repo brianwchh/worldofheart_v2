@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>阿哥膝頭畀汝坐.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<p><em>我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！</em></p>
+<hr>
+<ul>
+<li><a href="../../tableOfContent.md"><font size=3>跳轉到博客目錄頁面</font></a>&lt;---[<font size=2>在線閱讀</font>]                       <font size=2> [本地] ---&gt;</font><font size=3><a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h3 id="p-style%22font-size-23px-font-weight900%22%E7%89%B9%E5%88%A5%E6%8E%A8%E8%96%A6%E6%96%87%E7%AB%A0p"><p style="font-size: 23px; font-weight:900;">特別推薦文章</p></h3>
+<ul>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md"><font size=4 color=red><strong>鄧紫棋解解的小說——2507抬上帝入天坑</strong> </font></a><font size=2>&lt;---[點擊此前往github在線閱讀]</font>    <font size=3>本地模式 ---&gt; <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.html">html網頁版</a>     <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md.pdf">pdf版本</a> </font></p>
+</li>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md"><font color=red>無眠月照無情門 . 失去自由的歌手</font></a><font size=2> &lt;---[點擊此前往github在線閱讀]</font>                 <font size=3>本地模式---&gt;  <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.html">html網頁版</a>     <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md.pdf">pdf版本</a> </font></p>
+  <p><font size=2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 西子</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</font></p>
+</li>
+</ul>
+<hr>
+</br>
+<h1 id="p-align%22center%22-%E9%98%BF%E5%93%A5%E8%86%9D%E9%A0%AD%E7%95%80%E6%B1%9D%E5%9D%90%E8%81%BD%E6%B1%9D%E5%94%B1%E6%AD%8C%E4%B8%89%E5%A4%9C%E6%99%A1-p"><p align="center"> 阿哥膝頭畀汝坐，聽汝唱歌三夜晡    </p></h1>
+<p>阿aa3哥go1膝sat1（粵語 cit1客家）頭tau4畀(bei)汝(njiu唐tong4音jam1)坐co5，聽汝唱coeng3歌go1三saam1夜ye6/(ya6客家話）晡(bou1)。膝頭當凳dang3畀汝jyu5坐co5.</p>
+<ul>
+<li>
+<h2 id="%E4%BF%BE%E5%85%B6%E7%9F%A5-%E8%88%87-%E5%88%86fan1%E7%B2%B5%E7%95%80%E5%85%B6-%E5%88%86ban1%E5%AE%A2%E5%AE%B6%E8%A9%B1">俾其知  與 分（fan1粵）畀其 （分ban1客家話）</h2>
+<p><em><strong><strong><em>畀 :</em></strong></strong></em>  根據《詩經˙小雅˙巷伯》記載：「取彼譖人，投畀豺虎，豺虎不食」，當中「投畀豺虎」一詞的意思就是「把誣陷別人的小人扔給豺虎吃掉」，故此「畀」解作「給予」古已有之，平時想表示此意該用「畀」，例如「媽畀咗零用錢我」（媽媽給了我零用錢）、「老師畀咗本參考書我」（老師給了我一本參考書）、「幫我拎個袋畀佢」（幫我把這個包拿給他）。</p>
+<p><em><strong><strong><em>俾 :</em></strong></strong></em> 根據《左傳˙成公十三年》記載：「俾我惠公，用能奉祀于晉」，意思是「使我們的惠公能夠供奉晉國的祭祀」，由此可見「俾」的原意是「使」、「令到」、「讓」、「把」，後面跟隨的意思多指達到某種效果，如「俾眾周知」就是「使所有人都知道」、「俾有所悟」就是「令人有所領悟」，所以說「不要令到自己受傷」應該是「唔好俾自己受傷」</p>
+<p>（摘自: <a href="http://languagemystery.blogspot.com/2014/04/blog-post_18.html">「畀」還是「俾」？</a> )</p>
+</li>
+<li>
+<h2 id="%E5%A4%9C%E6%99%A1%E9%A0%ADtau4%E4%BB%8A%E6%9A%97%E4%BB%8A%E5%A4%9C%E6%9A%97%E5%A4%9C%E6%9A%97%E6%99%A1%E6%99%82%E6%9A%97%E6%99%A1%E9%A0%AD%E4%BB%8A%E6%9A%97%E6%99%A1%E4%BB%8A%E6%99%A1%E6%9A%97%E6%99%A1">【夜晡/頭tau4】【今暗】、【今夜】、【暗夜】、【暗晡時】、【暗晡頭】、【今暗晡】、【今晡暗晡】</h2>
+<p>日晡頭 vs 夜晡頭， 晡： 申時，下午3點之5點</p>
+<p>암야행로(暗夜行heng路)』am3 je6 hong4/hang4 lou6  。 韓hon4/漢hon3 韓國hon4gwok3夜je6發音同客家話發音一樣joeng6.</p>
+<p>突然之間（dat6 jin4 zi1 gaan3）覺得（gok3 dak1）太taai3搞笑gaau2siu3了liu5，無教養無文化man3faa4啲地痞流氓dei6pei2流氓liu4mong4癟三bit6saam1在教我們我啲漢語hon3jyu5.感覺gam2gok3韓國人hon4gwok3jan4都dou1更gang3有jau5資格zi1gaak3。</p>
+<p>天暗矣 = 天黑了。</p>
+<h3 id="%E5%B0%8D%E8%87%AA%E5%B7%B1%E7%9A%84%E8%AA%9E%E8%A8%80%E7%9E%AD%E8%A7%A3%E7%9A%84%E8%B6%8A%E5%A4%9A%E5%BF%83%E8%A3%8F%E5%8F%AA%E6%9C%83%E7%9B%8A%E5%8A%A0%E6%84%9F%E5%98%86%E5%89%8D%E4%BA%BA%E7%9A%84%E6%99%BA%E6%85%A7%E8%88%87%E4%B8%AD%E5%8F%A4%E9%9F%B3%E8%AA%9E%E8%A8%80%E7%9A%84%E6%96%87%E9%9B%85%E5%92%8C%E5%84%AA%E7%BE%8E%E5%A4%A9%E6%9A%97%E7%9F%A3%E5%8F%AA%E6%98%AF%E6%88%91%E5%80%91%E6%97%A5%E5%B8%B8%E7%9A%84%E5%8F%A3%E9%A0%AD%E8%AA%9E%E4%B8%8D%E6%98%AF%E5%8F%AA%E6%98%AF%E5%AF%AB%E6%9B%B8%E5%A6%82%E6%AD%A4%E5%8F%AF%E8%A6%8B%E9%80%99%E9%96%80%E8%AA%9E%E8%A8%80%E7%9C%9F%E7%9A%84%E6%98%AF%E5%84%AA%E7%BE%8E%E7%9A%84%E5%8F%A4%E5%8C%96%E7%9F%B3%E5%8F%AA%E6%98%AF%E6%88%91%E5%80%91%E4%B8%9F%E6%8E%89%E4%BA%86%E5%A4%AA%E5%A4%9A%E4%BA%86">對自己的語言瞭解的越多，心裏只會益加感嘆前人的智慧與中古音語言的文雅和優美。天暗矣只是我們日常的口頭語，不是只是寫書如此。可見這門語言真的是優美的古化石！只是我們丟掉了太多了！</h3>
+<p>羊joeng4羣kwan4</p>
+</li>
+<li>
+<h2 id="%E6%B1%9D-jyu5--%E4%BD%A0">汝 （jyu5） = 你</h2>
+<p>屄語: 汝 rv</p>
+<h4 id="%E4%BC%BC%E4%B9%8E%E6%89%BE%E5%88%B0%E4%BA%86%E5%B1%84%E8%AA%9E%E6%94%B9%E9%80%A0%E6%BC%A2%E9%9F%B3%E7%9A%84%E8%A6%8F%E5%BE%8B%E7%B2%B5%E8%AA%9E%E9%87%8C%E7%9A%84jy%E5%9C%93%E8%84%A3%E9%9F%B3%E5%B1%84%E8%AA%9E%E9%87%8C%E5%B0%B1%E8%AE%80%E6%88%90%E6%8D%B2%E8%88%8C%E7%9A%84r%E9%9F%B3">似乎找到了屄語改造漢音的規律，粵語里的jy（圓脣）音，屄語里就讀成捲舌的r音。</h4>
+<p>[ 上古音 ]：鱼部日母,njia<br>
+[ 广　韵 ]：人渚切,上8语,rǔ,遇开三上鱼日<br>
+[ 平水韵 ]：上声六语<br>
+[ 唐　音 ]：*njiǔ<br>
+[ 屄　语 ]：rǔ<br>
+[ 粤　语 ]：jyu5<br>
+[ 闽南语 ]：ji2<br>
+◎ 基本解释<br>
+汝  njiǔ， (ng, nge 客家話，畲族發音)<br>
+你：汝辈。汝等。汝曹。汝将何经。<br>
+姓</p>
+</li>
+</ul>
+<p>膝 sat1 粵語， 客家話，cit1. 有入jap6聲，絕zyut6對deoi3唔係ci</p>
+<p>台灣 大埔音	腳（goek3）giog^ 膝cid^ 頭（tau4）teuˇ。 好奇怪kei4gwaai3，點解膝(cid)收音sau1jam1係d唔係t呢？</p>
+
+</body>
+</html>

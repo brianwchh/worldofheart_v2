@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>重語輕音是婉音的精髓.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<p><em>我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！</em></p>
+<hr>
+<ul>
+<li><a href="../../tableOfContent.md"><font size=3>跳轉到博客目錄頁面</font></a>&lt;---[<font size=2>在線閱讀</font>]                       <font size=2> [本地] ---&gt;</font><font size=3><a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h3 id="p-style%22font-size-23px-font-weight900%22%E7%89%B9%E5%88%A5%E6%8E%A8%E8%96%A6%E6%96%87%E7%AB%A0p"><p style="font-size: 23px; font-weight:900;">特別推薦文章</p></h3>
+<ul>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md"><font size=4 color=red><strong>鄧紫棋解解的小說——2507抬上帝入天坑</strong> </font></a><font size=2>&lt;---[點擊此前往github在線閱讀]</font>    <font size=3>本地模式 ---&gt; <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.html">html網頁版</a>     <a href="../../md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md.pdf">pdf版本</a> </font></p>
+</li>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md"><font color=red>無眠月照無情門 . 失去自由的歌手</font></a><font size=2> &lt;---[點擊此前往github在線閱讀]</font>                 <font size=3>本地模式---&gt;  <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.html">html網頁版</a>     <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md.pdf">pdf版本</a> </font></p>
+  <p><font size=2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 西子</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</font></p>
+</li>
+</ul>
+<hr>
+</br>
+<h1 id="p-align%22center%22--%E9%87%8D%E8%AA%9E%E8%BC%95%E9%9F%B3%E6%98%AF%E5%A9%89%E9%9F%B3%E7%9A%84%E7%B2%BE%E9%AB%93-p"><p align="center"  > 重語輕音是婉音的精髓 </p></h1>
+<p align="center"  ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
+<div align="left"> <!-- div_1-->
+<p>客家歌曲唱起來好聽，也容易唱，但很多地方的人說客家話受胡言亂語的重語重音的影響，在發去聲時，本應比平聲低的，卻發的很重，因而失去了婉轉之音本該有的特色。而粵語卻很完整地保留着這重語輕音的精髓！所以粵語在朗誦說話時也很好聽。</p>
+<p><a href="https://youtu.be/H3hRd0zNKg0">明月几时有 (粤语原词版)· 陈辉权</a><sub>好彩我下載了，可以反覆聽，死畜生關注我太緊了點吧，這個鏈接隔天就失效了！死變態的畜生！---2023年1月31日</sub>，個人覺得這個版本比鄧麗君的版本還有其他人的版本好很多，歌手的唱功或許沒有鄧麗君大師好，但粵語語言的發音本身就是一個動聽的音樂，陰陽清濁交合的聲音，使得聲線飽和且柔和很多，比胡言亂語單音且單調的聲音好聽很多。比如這歌，就有點有吟詩變成歡唱的味道，很自然，很簡單，相信很多說粵語的人都能唱，但卻很好聽。用胡言亂語來這樣唱就肯定沒這個味道了！胡言亂語大多走火入魔學着英語發聲流派的清亮之聲，都比着誰唱的高音高，糍粑喫多了會膩，聲音尖久了，耳朵受不了，又或者走滾滾長江東逝水的那種單調沉悶的“嚴肅”之音，整首歌一濁到底。</p>
+<p><a href="https://youtu.be/zvQjfKH3jnQ">七位主持人用客家、潮汕、广东、闽南方言朗诵《水调歌头》</a>，對比之下，就那個所謂的普通話是最剛硬的發音，重語重音，客家話在讀去聲時也有點類似之，而粵語，潮州話，還有閩南語都是去聲輕讀。而且其他所謂的方言都是內斂柔和的音色比較飽和的路線，唯獨這生硬的滿大人走所謂額字正腔圓誇張的歐美清亮孤獨音色的路線。</p>
+<p>屄言屄語的惡習一旦染上，真的是深入了骨髓一樣，不用腦就能脫口而出！因爲在屄語的詞彙里，有些詞就像狗總是想喫屎一樣脫口而出！漢字文化里一旦被注入屄語的基因，不進行一場漢語語言的變革，中國人擺脫不了被愛因斯坦之流鄙視及厭惡！一個好好的詩經文化被屄蠻的痞子文化給污染了！</p>
+<p><strong>語言可以說是一個人骨子里的人品與修養，跟語感一樣，是不大需用腦的條件反射！也是一種民風！說話動聽有美感的地方，民風一般都不會差！</strong></p>
+<p>因而，粵語唱歌好聽，是因其語音系統的設計本身就是一個自帶柔和濾波器的飽和內斂的音色。這點客家話的發聲系統和粵語很接近。</p>
+<p>說話好聽，是因爲粵語的重語輕音！即陰陽四韻（六調十二聲）。</p>
+<p>而客家話比粵語的一點優勢在於其語言上保留了很多古漢語，客家人學粵語就跟學韓語一樣有優勢，比如粵語里說的聽日，應是客家人說的天光日的簡稱，你啲應是客家人說的你兜(人）的誤讀，阿姆話里有很多農耕時代的烙印，比如兜字，就是用衣角兜住東西之意，延伸指量少，也指端着，比如兜合定，就是端住別掉了，或端住不要動，跟兜住有不一樣的意思。只是文字易留，聲難續，但語言的一個奇蹟就是即使分散各地，幾百年之後，雖然音有變，卻都還能聽得懂。會說客家話和粵語的人可能會發現，阿姆話和粵語其實是非常接近和相同的，客家人說咁同噉（客粵一個意思一個發音），俾/畀（粵語說bei，客語說ben）。</p>
+<p>以前只聽過粵語歌曲，一直覺得粵語歌曲比普通話的好聽太多，當時說不上來爲啥，就是一種感覺。現在才知道是發聲系統決定的。粵語和客家話一樣，語言屬於內斂的婉音，即重語輕聲的陰陽四韻。直到後來慢慢聽到“外國人”唱着好聽的客家歌曲，才讓自己重新認識了這離開了中國的正宗古漢語。紅花需要綠葉陪，聽多了音樂，就會發現客家話與粵語歌曲那婉轉飽和的聲線很好聽也很耐聽，甜而不膩的舒服。胡言亂語的音線總體就是孤獨而單調高亮刺耳。而客家話似乎就是真的就是傳說中的大音至簡，生活中什麼鬼都能寫唱進歌曲中，把流行歌當成山歌一樣唱，這種形式可能是客語歌曲的一大特點，跟詩經一樣，風雅頌都能表達。客家歌曲好唱，可以對比同一個歌手唱胡言亂語的歌，胡言亂語的歌其可能唱不好，但一唱客家歌卻很好聽。難道好歌真的是不挑人！曲高和寡也未必是好音樂！就像胡言亂語太難說好了，就需要專門的吹簫人士配音。</p>
+<p>文化可以修心，也可以被畜生用來洗腦！但陰謀與謊言的牆修得再高，也怕陽光，在陽光下黑與白自然有從暗到灰到明的變化與對比。有了對比，自然就有了傷害和憤怒：你活了大半輩子發現被人關在陰暗的屎坑里喫屎幾百年，是一種什麼感覺！而且你以前還愛上了這屎文化！一個文化能否得到延續，一定要有足夠裝屎的馬桶，只有把人腦變成馬桶，其才會有屎文化的思維，這樣才能忠於和欣賞這屎文化，而且這馬桶的牆一定要有形和無形的結合，要忽悠他們遠離和排斥飯文化！甚至嘲笑、扭曲飯文化！更不能讓他們知道，屎文化是從飯文化來的，只是消化不良產出的，所以裏面又還有點營養！千萬千萬不能讓他們在飯的文化里得到屎和飯的味道對比！不然屎文化就玩完了！</p>
+<p align="right"> 2023年1月30日 於韓國濟州島 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>  
+</div> <!-- end of div_1-->
+<div align="center" >
+</div>
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 400px ;
+        flex:0;    
+        height:auto; 
+        max-width: 400px;
+        min-width: 400px;
+     
+    }
+}
+
+
+</style>
+
+</body>
+</html>
