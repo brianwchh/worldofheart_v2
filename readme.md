@@ -357,6 +357,10 @@
 
         - [被冒犯嘅猴子](./md_and_html/雜文隨筆/被冒犯嘅猴子.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/被冒犯嘅猴子.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/被冒犯嘅猴子.md.pdf)</font>
 
+        - [情緒是神佛持久消耗戰](./md_and_html/雜文隨筆/情緒是神佛持久消耗戰.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/情緒是神佛持久消耗戰.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/情緒是神佛持久消耗戰.md.pdf)</font>
+
+        - [心酸是心理疾病之源頭](./md_and_html/雜文隨筆/心酸是心理疾病之源頭.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/心酸是心理疾病之源頭.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/心酸是心理疾病之源頭.md.pdf)</font>
+
 
     #### <p id="技術博客文章目錄"> <p/>
     * # 技術博客文章目錄
