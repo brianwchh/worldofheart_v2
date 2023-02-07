@@ -7,6 +7,7 @@
 
 * # 文章分類
     - [<font color=red>鄧紫棋解解的小說——2507抬上帝入天坑</font>](#鄧紫棋解解的小說——2507抬上帝入天坑)
+    - [<font color=green>鄧紫棋所有歌曲暗線解說</font>](#鄧紫棋所有歌曲暗線解說)
     - [一切因緣她(心學)](#一切因緣她)
     - [<font color=red>無眠月照無情門 . 失去自由的歌手</font>](#無眠月照無情門)
     - [天方夜譚之國策論](#天方夜譚之國策論)
@@ -35,8 +36,16 @@
          <sub>西子</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阿柄</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022年11月10日 於韓國濟州島</sub>
         </div>
 
+    #### <p id="鄧紫棋所有歌曲暗線解說"> <p/>
 
-        #### <p id="天方夜譚之國策論"> <p/>
+    - #### <font color=green>[鄧紫棋所有歌曲暗線解說</font> 
+
+        - [鄧紫棋所有歌曲暗線解說](./鄧紫棋所有歌曲暗線解說.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](./鄧紫棋所有歌曲暗線解說.html)&nbsp; &nbsp; [*_pdf格式_*](./鄧紫棋所有歌曲暗線解說.md.pdf)</font>
+
+        
+
+
+    #### <p id="天方夜譚之國策論"> <p/>
     * #### 天方夜譚之書生國策論   
            修身心。齊家。平天下。
 
@@ -307,6 +316,10 @@
         - [情緒是神佛持久消耗戰](./md_and_html/雜文隨筆/情緒是神佛持久消耗戰.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/情緒是神佛持久消耗戰.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/情緒是神佛持久消耗戰.md.pdf)</font>
 
         - [心酸是心理疾病之源頭](./md_and_html/雜文隨筆/心酸是心理疾病之源頭.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/心酸是心理疾病之源頭.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/心酸是心理疾病之源頭.md.pdf)</font>
+
+        - [爲何畜生愛做性文章](./md_and_html/雜文隨筆/爲何畜生愛做性文章.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/爲何畜生愛做性文章.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/爲何畜生愛做性文章.md.pdf)</font>
+
+        - [死不瞑目](./md_and_html/雜文隨筆/死不瞑目.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/死不瞑目.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/死不瞑目.md.pdf)</font>
 
 
     #### <p id="技術博客文章目錄"> <p/>
