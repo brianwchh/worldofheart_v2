@@ -333,12 +333,12 @@
             - [有必要學RUST嗎](./md_and_html/rust/有必要學RUST嗎.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/rust/有必要學RUST嗎.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/rust/有必要學RUST嗎.md.pdf)</font>
 
         - #### BlockChain 
-            - [random-pow-and-pos-for-blockchain](./md_and_html/blockchain/random-pow-and-pos-for-blockchain.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/blockchain/random-pow-and-pos-for-blockchain.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/blockchain/random-pow-and-pos-for-blockchain.md.pdf)</font>
+            - [random-pow-and-pos-for-blockchain](./md_and_html/技術教程/blockchain/random-pow-and-pos-for-blockchain.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/blockchain/random-pow-and-pos-for-blockchain.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/blockchain/random-pow-and-pos-for-blockchain.md.pdf)</font>
 
         - #### GoLang 
-            - [build Go FrameWork](./md_and_html/GoLang/buildGoFrameWork.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/GoLang/buildGoFrameWork.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/GoLang/buildGoFrameWork.md.pdf)</font>
+            - [build Go FrameWork](./md_and_html/技術教程/GoLang/buildGoFrameWork.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/GoLang/buildGoFrameWork.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/GoLang/buildGoFrameWork.md.pdf)</font>
 
-            - [go-module](./md_and_html/GoLang/buildGoFrameWork.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/GoLang/buildGoFrameWork.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/GoLang/buildGoFrameWork.md.pdf)</font>
+            - [go-module](./md_and_html/技術教程/GoLang/go-module.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/GoLang/go-module.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/GoLang/go-module.md.pdf)</font>
 
         #### <p id="真正的web3.0"> <p/>  
         - #### A real web3.0 should be like this! 真正的web3.0

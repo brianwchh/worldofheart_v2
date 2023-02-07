@@ -1,0 +1,103 @@
+***
+*我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！* 
+****
+- [<font size=3>跳轉到博客目錄頁面</font>](../../../tableOfContent.md)<---[<font size=2>在線閱讀</font>]&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](../../../tableOfContent.html)&nbsp; &nbsp; [*_pdf格式_*](../../../tableOfContent.md.pdf)</font>
+****
+
+### <p style="font-size: 23px; font-weight:900;">特別推薦文章</p>
+
+- [<font color=red> 鄧紫棋解解的小說——2507抬上帝入天坑 <sub>https://github.com/brianwchh/2507 </sub></font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp; <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](../../../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](../../../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font> 
+
+- [<font  > 心學心解 </font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp; &nbsp;   <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](../../../心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](../../../心學新解.md.pdf)</font> 
+
+- [<font  >無眠月照無情門 . 失去自由的歌手</font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md)<font size=2> <---[點擊此前往github在線閱讀]</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=2>本地模式---> &nbsp;[html網頁版](../../../md_and_html/無眠月照無情門.html) &nbsp;&nbsp;&nbsp; [pdf版本](../../../md_and_html/無眠月照無情門.md.pdf) </font>
+
+    <p><font size=2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 西子</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</font></p>
+    
+- [<font  >心世界(world of heart)</font>](https://github.com/brianwchh/worldofheart_v2)<font size=2> <---[點擊此前往github在線閱讀]</font> <sub> https://github.com/brianwchh/worldofheart_v2 </sub>
+
+   
+
+****
+
+
+
+
+# <p align="center"  >random-pow-and-pos-for-blockchain</p> 
+
+<p align="center" style="font-size: small;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
+
+
+</br>
+
+[https://github.com/brianwchh/random-pow-and-pos-for-blockchain](https://github.com/brianwchh/random-pow-and-pos-for-blockchain) , 到此可下載pdf
+
+
+</br>
+</br>
+
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 900px ;
+        flex:0;    
+        height:auto; 
+        max-width: 900px;
+        min-width: 900px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+}
+
+</style>
+
+
+<!-- 共用的css -->
+<!-- <head>
+    <link rel="stylesheet" href="../common_css/common_style.css">
+</head> -->
