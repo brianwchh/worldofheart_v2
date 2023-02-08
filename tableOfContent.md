@@ -405,6 +405,8 @@
 
         * [細妹恁靚](./md_and_html/客家話/細妹恁靚.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/細妹恁靚.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/細妹恁靚.md.pdf)</font>
         
+
+        * [阿姆吟唱詩詞曲](./md_and_html/客家話/阿姆吟唱詩詞曲.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/阿姆吟唱詩詞曲.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/阿姆吟唱詩詞曲.md.pdf)</font>
         
         
 
