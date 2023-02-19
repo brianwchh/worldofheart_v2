@@ -16,6 +16,11 @@
 
 ****
 
+- ## 鄧紫棋的求救信號 
+
+    - # [**歌曲「我的祕密」——鄧紫棋的求救信號**](./md_and_html/鄧紫棋所有歌曲暗線解說/我的祕密——鄧紫棋的求救信號.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋所有歌曲暗線解說/我的祕密——鄧紫棋的求救信號.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋所有歌曲暗線解說/我的祕密——鄧紫棋的求救信號.md.pdf)</font>
+
+</br>
 
 - ###  <font size= 6> *_使用方法介紹_* </font>   
 
