@@ -334,7 +334,8 @@
 
         - [有點智商的病毒](./md_and_html/雜文隨筆/有點智商的病毒.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/有點智商的病毒.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/有點智商的病毒.md.pdf)</font>
         
-
+        - [腦控與愛](./md_and_html/雜文隨筆/腦控與愛.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/腦控與愛.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/腦控與愛.md.pdf)</font>
+        
 
     #### <p id="技術博客文章目錄"> <p/>
     * # 技術博客文章目錄
