@@ -8,7 +8,7 @@
 
 - [<font color=red> 鄧紫棋解解的小說——2507抬上帝入天坑 <sub>https://github.com/brianwchh/2507 </sub></font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E9%84%A7%E7%B4%AB%E6%A3%8B%E8%A7%A3%E8%A7%A3%E7%9A%84%E5%B0%8F%E8%AA%AA%E2%80%94%E2%80%942507%E6%8A%AC%E4%B8%8A%E5%B8%9D%E5%85%A5%E5%A4%A9%E5%9D%91.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp; <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](../../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](../../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font> 
 
-- [<font  > 心學心解 </font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp; &nbsp;   <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](../../心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](../../心學新解.md.pdf)</font> 
+- [<font  > 心學心解 </font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp; &nbsp;   <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](../../md_and_html/心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](../../md_and_html/心學新解.md.pdf)</font> 
 
 - [<font  >無眠月照無情門 . 失去自由的歌手</font>](https://github.com/brianwchh/worldofheart_v2/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md)<font size=2> <---[點擊此前往github在線閱讀]</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=2>本地模式---> &nbsp;[html網頁版](../../md_and_html/無眠月照無情門.html) &nbsp;&nbsp;&nbsp; [pdf版本](../../md_and_html/無眠月照無情門.md.pdf) </font>
 
