@@ -20,6 +20,16 @@
 
     - # [**歌曲「我的祕密」——鄧紫棋的求救信號**](./md_and_html/鄧紫棋所有歌曲暗線解說/我的祕密——鄧紫棋的求救信號.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋所有歌曲暗線解說/我的祕密——鄧紫棋的求救信號.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋所有歌曲暗線解說/我的祕密——鄧紫棋的求救信號.md.pdf)</font>
 
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/thumbnail.png '/>
+    <div class="FlexSide" ></div>
+    </div>
+    <p align="center" style="margin:0px;">  </p> 
+    </div> <!-- end pictureWrapper_div -->
+
 </br>
 
 - ###  <font size= 6> *_使用方法介紹_* </font>   
