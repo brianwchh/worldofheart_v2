@@ -290,6 +290,8 @@
 
         - [問茶花](./md_and_html/附庸風雅/問茶花.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/問茶花.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/問茶花.md.pdf)</font>
 
+        - [千年等一回](./md_and_html/附庸風雅/千年等一回.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/千年等一回.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/問茶花.md.pdf)</font>
+
 
 
     #### <p id="雜文隨筆"> <p/>
@@ -390,7 +392,6 @@
             > <sub>An real web3.0 ecosystem should be like this, where web3.0 is not dependent on anyCryptocurrency platorm, where self-media platform and home IOT system is  decentralized and connected to each other, where ereryone can rent their free disk space, and where everyone can rent their computer computation acting as an edge side of distributed cloud computing,thus thousands and hundreds of ants can move an  elephant. In one world a real web3.0 is fully decentralized and a lot of opportunities are distributed among individuals. click below link to read more ... </br> 一個真的web3.0生態系統應如是：不依賴任何加密平臺，所以不會淪爲別人的韭菜，其中去中心 化家庭IOT自媒體平臺之間自由互連，每個人將可以成爲分佈式雲計算的運算終端出租電腦存儲空間 及運算力。點擊如下鏈接瞭解更多細節。</sub>
 
             - [a real web3.0 and IPFS](./md_and_html/web3.0/real_web3.0_and_IPFS.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/web3.0/real_web3.0_and_IPFS.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/web3.0/real_web3.0_and_IPFS.md.pdf)</font>
-
 
   
 
