@@ -353,6 +353,8 @@
         - [千年等一回](./md_and_html/附庸風雅/千年等一回.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/千年等一回.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/問茶花.md.pdf)</font>
 
         - [女人花](./md_and_html/附庸風雅/女人花.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/女人花.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/女人花.md.pdf)</font>
+
+        - [失憶](./md_and_html/附庸風雅/失憶.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/失憶.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/失憶.md.pdf)</font>
         
         
 
