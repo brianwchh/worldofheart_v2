@@ -373,6 +373,10 @@
         - [三歲看世界](./md_and_html/附庸風雅/三歲看世界.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/三歲看世界.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/三歲看世界.md.pdf)</font>
 
         - [無人之島](./md_and_html/附庸風雅/無人之島.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/無人之島.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/無人之島.md.pdf)</font>
+
+        - [傻子的雙眼](./md_and_html/附庸風雅/傻子的雙眼.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/傻子的雙眼.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/傻子的雙眼.md.pdf)</font>
+
+        - [想與你同框](./md_and_html/附庸風雅/想與你同框.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/想與你同框.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/想與你同框.md.pdf)</font>
         
 
 
