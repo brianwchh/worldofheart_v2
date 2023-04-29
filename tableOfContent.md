@@ -339,6 +339,8 @@
         - [無聊爛戲](./md_and_html/附庸風雅/無聊爛戲.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/無聊爛戲.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/無聊爛戲.md.pdf)</font>
 
         - [這美麗世界是認知以外的魷魚遊戲](./md_and_html/附庸風雅/這美麗世界是認知以外的魷魚遊戲.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/這美麗世界是認知以外的魷魚遊戲.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/這美麗世界是認知以外的魷魚遊戲.md.pdf)</font>
+
+        - [畜生的無聊讓你掉下巴](./md_and_html/附庸風雅/畜生的無聊讓你掉下巴.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/畜生的無聊讓你掉下巴.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/畜生的無聊讓你掉下巴.md.pdf)</font>
         
 
 
