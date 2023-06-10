@@ -406,6 +406,10 @@
         - [無爲](./md_and_html/附庸風雅/無爲.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/無爲.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/無爲.md.pdf)</font> 
 
         - [潛意識與心的信號](./md_and_html/附庸風雅/潛意識與心的信號.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/潛意識與心的信號.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/潛意識與心的信號.md.pdf)</font> 
+
+        - [政治傳銷](./md_and_html/附庸風雅/政治傳銷.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/政治傳銷.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/政治傳銷.md.pdf)</font>
+
+        - [起心動念](./md_and_html/附庸風雅/起心動念.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/起心動念.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/起心動念.md.pdf)</font>  
         
 
 
